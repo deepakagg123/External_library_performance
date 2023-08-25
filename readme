@@ -1,3 +1,6 @@
+
+This repository contains the Fortran codes of matrix multiplication.
+
 The following scenarios are being tested:
 
 1.Comparing the performance of matrix multiplication code without any external library compiled with gfortran and ifort.
