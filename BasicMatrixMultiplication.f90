@@ -1,9 +1,9 @@
 program BasicMatrixMultiplication
     implicit none
 
-    integer, parameter :: N = 1000
-    integer, parameter :: M = 1000
-    integer, parameter :: K = 1000
+    integer, parameter :: N = 20000
+    integer, parameter :: M = 20000
+    integer, parameter :: K = 20000
 
     real(8), dimension(N, K) :: A
     real(8), dimension(K, M) :: B
