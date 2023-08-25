@@ -1,0 +1,4 @@
+The following scenarios are being tested:
+
+1.Comparing the performance of matrix multiplication code without any external library compiled with gfortran and ifort.
+2.Comparing the performance of matrix multiplcation code with BLAS and Intel MKL library
