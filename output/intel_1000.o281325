@@ -1,0 +1,5 @@
+BasicMatrixMultiplication.f90(18): error #6404: This name does not have a type, and must have an explicit type.   [RAND]
+            A(i, j) = rand()
+----------------------^
+compilation aborted for BasicMatrixMultiplication.f90 (code 1)
+/var/spool/PBS/mom_priv/jobs/281325.ANTYA.SC: line 41: ./BasicMatrix_intel1000: No such file or directory
