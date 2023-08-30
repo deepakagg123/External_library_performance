@@ -1,4 +1,4 @@
-program FortranMKL
+program MatrixMultMKL
     use iso_c_binding
     use blas95
 
@@ -39,7 +39,7 @@ program FortranMKL
 
     call cpu_time(end_time)
 
-    print *, "Time with Fortran MKL:", end_time - start_time, "seconds"
+    print *, "Time with MKL:", end_time - start_time, "seconds"
     
-end program FortranMKL
+end program MatrixMultMKL
 

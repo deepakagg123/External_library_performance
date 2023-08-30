@@ -1,4 +1,4 @@
-program FortranBLAS
+program MatrixMultiBLAS
     implicit none
 
     integer, parameter :: N = 20000
@@ -36,7 +36,7 @@ program FortranBLAS
 
     call cpu_time(end_time)
 
-    print *, "Time with Fortran BLAS:", end_time - start_time, "seconds"
+    print *, "Time with BLAS:", end_time - start_time, "seconds"
     
-end program FortranBLAS
+end program MatrixMultiBLAS
 

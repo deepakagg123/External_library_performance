@@ -1,4 +1,4 @@
-program BasicMatrixMultiplication
+program MatrixMult
     implicit none
 
     integer, parameter :: N = 20000
@@ -37,6 +37,6 @@ program BasicMatrixMultiplication
     end do
     call cpu_time(end_time)
 
-    print *, "Time without ext library in seconds:", end_time - start_time
+    print *, "gfortran time without ext library in seconds:", end_time - start_time
 
-end program BasicMatrixMultiplication
+end program MatrixMult
